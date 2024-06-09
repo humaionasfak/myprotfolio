@@ -833,7 +833,7 @@ body.light-theme{
 }
 /* responsive section start  */
 /* small device */
-@media screen and (max-width:520px) {
+@media screen and (max-width:580px) {
     .nev__menu{
         padding: 1rem 1.5rem;
     }
@@ -866,6 +866,17 @@ body.light-theme{
     }
     .work__filter{
         column-gap: .55rem;
+    }
+    .nev__menu{
+        position: fixed;
+        bottom: 1rem;
+        background-color: hsla(var(--second-hue),32%, 16%, 0.8);
+        width: 90%;
+        border-radius: 4rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 1rem ;
+        backdrop-filter: blur(10px);
     }
 }
 /* md device */
