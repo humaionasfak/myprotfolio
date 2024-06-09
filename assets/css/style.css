@@ -684,6 +684,7 @@ img{
 /*<=========footer section start===========>*/
 .footer{
     background-color: var(--first-color);
+    padding: 0;
 
 }
 .footer__container{
