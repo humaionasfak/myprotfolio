@@ -1,3 +1,6 @@
+document.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () => {
   const header = document.getElementById("header");
@@ -181,3 +184,20 @@ const sr = ScrollReveal({
 sr.reveal(`.home_data`);
 sr.reveal(`.home__handle`, { delay: 700 });
 sr.reveal(`.home__social , .home_scroll`, { delay: 900, origin: "bottom" });
+
+// send mail section
+// const buttonForm = document.querySelector(".button");
+// buttonForm.addEventListener("click", (e) => {
+//   e.preventDefault();
+// });
+// function sendMail() {
+//   Email.send({
+//     Host: "smtp.gmail.com",
+//     Username: "mda345171@gmail.com",
+//     Password: "Humaion@sfak513501",
+//     To: "them@website.com",
+//     From: document.querySelector(".contact_form_input").value,
+//     Subject: "New Contact Form Enquiry",
+//     Body: "And this is the body",
+//   }).then((message) => alert(message));
+// }

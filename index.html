@@ -21,7 +21,9 @@
     <script src="./assets/script/mixitup.min.js" defer></script>
     <!-- js link  -->
     <script src="./assets/script/script.js" defer></script>
-    
+    <!-- send mail  -->
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
 </head>
 <body>
     <!-- ========== header section========== -->
@@ -78,7 +80,7 @@
                         I'am a front-end developer
                     </h3>
                     <div class="home_buttons">
-                        <a download="" href="./assets/pdf/Ansel-Cv.pdf" class="button button-gost">
+                        <a download="" href="./assets/pdf/my new cv.pdf" class="button button-gost">
                             Download CV
                         </a>
                         <a href="#" class="button">About me</a>
@@ -117,7 +119,7 @@
                         <div class="about_box">
                             <i class='bx bx-award about_icon' ></i>
                             <h3 class="about_title">Experience</h3>
-                            <span class="about_subtitle">1+ years working</span>
+                            <span class="about_subtitle">2+ years working</span>
                         </div>
 
                         <div class="about_box">
@@ -157,7 +159,7 @@
                                     <span class="skills__level">Basic</span>
                                 </div>
                             </div>
-                            
+
                             <div class="skills__data">
                                 <i class='bx bxs-badge-check' ></i>
 
@@ -243,7 +245,7 @@
                                     </p>
                                 </li>
 
-                                
+
                                 <li class="services_modal_item">
                                     <i class='bx bx-check service__model_icon' ></i>
                                     <p class="service_model_info">
@@ -300,12 +302,27 @@
                         Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
                     </a>
                 </div>
-
                 <div class="work__card mix web">
-                    <img src="./assets/image/work1.jpg" alt="" class="work__img">
-                    <h3 class="work__title">Project 1</h3>
+                    <div class="work-link-img">
+                        <a href="https://humaionasfak.github.io/homeWorks/aytor/index.html">
+                            <img src="./assets/image/aytor.png" alt="" class="work__img">
+                        </a>
+                    </div>
+                    <h3 class="work__title">Aytor </h3>
 
-                    <a href="" class="work__button">
+                    <a href="https://humaionasfak.github.io/homeWorks/aytor/index.html" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                    </a>
+                </div>
+                <div class="work__card mix web">
+                    <div class="work-link-img">
+                        <a href="https://humaionasfak.github.io/super-car-website/">
+                            <img src="./assets/image/super car.png" alt="" class="work__img">
+                        </a>
+                    </div>
+                    <h3 class="work__title">Super car </h3>
+
+                    <a href="https://humaionasfak.github.io/super-car-website/" class="work__button">
                         Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
                     </a>
                 </div>
@@ -368,7 +385,7 @@
                         <i class='bx bx-mail-send contact_card_icon'></i>
                         <h3 class="container__card_title">Email</h3>
                         <span class="contact__card_data">mda346171@gmail.com</span>
-    
+
                         <a href="mailto:mda346171@gmail.com" target="_blank" class="contact__button">
                             write me  <i class='bx bx-right-arrow-alt contact__icon' ></i>
                         </a>
@@ -378,7 +395,7 @@
                         <i class='bx bxl-whatsapp contact_card_icon' ></i>
                         <h3 class="container__card_title">Whatsapp</h3>
                         <span class="contact__card_data">+880-1878783595</span>
-    
+
                         <a href="https://api.whatsapp.com/send?phone=+8801878783595&text=hello, more informtaion" target="_blank" class="contact__button">
 
                             write me  <i class='bx bx-right-arrow-alt contact__icon' ></i>
@@ -389,7 +406,7 @@
                         <i class='bx bxl-facebook-circle contact_card_icon' ></i>
                         <h3 class="container__card_title">Facebook</h3>
                         <span class="contact__card_data">Humaion Asfak</span>
-    
+
                         <a href="https://www.facebook.com/profile.php?id=100047971117818" target="_blank" class="contact__button">
                             write me  <i class='bx bx-right-arrow-alt contact__icon' ></i>
                         </a>
@@ -398,7 +415,7 @@
             </div>
             <div class="contact__content">
                 <h2 class="contact__title">Write your Project</h2>
-                <form action="" class="contact__form">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
                     <div class="contact__form_div">
                         <label for="" class="contact_form_tag">Names</label>
                         <input type="text" placeholder="insert your name" class="contact_form_input">
@@ -410,8 +427,8 @@
                     <div class="contact__form_div contact_form_area">
                         <textarea name="" id="" cols="30" rows="10" placeholder="write your project" class="contact_form_input "></textarea>
                     </div>
-                    
-                    <button class="button">Send Massage</button>
+
+                    <button class="button" type="submit">Send Massage</button>
                 </form>
             </div>
         </div>
@@ -436,13 +453,13 @@
             <ul class="footer__social">
                    <a href="https://www.facebook.com/profile.php?id=100047971117818" target="_blank" class="footer__social_link">
                     <i class='bx bxl-facebook' ></i>
-                   </a> 
+                   </a>
                    <a href="https://www.instagram.com/humaion_asfak/" target="_blank" class="footer__social_link">
                     <i class='bx bxl-instagram' ></i>
-                   </a> 
+                   </a>
                    <a href="https://twitter.com/Asfak513" target="_blank" class="footer__social_link">
                     <i class='bx bxl-twitter' ></i>
-                   </a> 
+                   </a>
             </ul>
             <span class="footer__copy">
                 &#169; Asfak . All right reserved

@@ -124,6 +124,8 @@ img{
 .scroll-header{
     box-shadow: 0 4px 8px hsla(0,0%, 4%, .3);
 }
+
+/*<========= cursor ===========>*/
 /***** common css Section End *****/
 /*<========= header and nav section start ===========>*/
 .header{
@@ -531,6 +533,17 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 
+}
+
+.work-link-img::-webkit-scrollbar{
+    display: none;
+}
+.work-link-img{
+    width: 300px;
+    height: 196px;
+    margin-bottom: .75rem;
+    overflow-y: scroll;
+    border-radius: .7rem;
 }
 .work__img{
     border-radius: .7rem;
